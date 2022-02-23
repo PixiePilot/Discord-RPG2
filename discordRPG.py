@@ -3,7 +3,7 @@ from discord.ext import commands
 import os
 from discord.ext.commands import has_permissions, MissingPermissions
 bot = commands.Bot(command_prefix="!")
-#TOKEN = 'OTIxNDU5MjkwMjczODk4NTA3.YbzN1g.D4Gk6j-Mc2dDQELm6rGQeMebaNk'
+
 with open("Token.txt") as read:
     TOKEN = (read.readline())
 @bot.event
